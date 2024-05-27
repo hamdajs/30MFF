@@ -1,5 +1,4 @@
-
-  .w3-sidebar .w3-bar-item p, .w3-sidebar .w3-bar-item i {
+ .w3-sidebar .w3-bar-item p, .w3-sidebar .w3-bar-item i {
     color: black !important;
   }
   .w3-sidebar .w3-bar-item:hover, .w3-sidebar .w3-bar-item:focus, .w3-sidebar .w3-bar-item:active {
@@ -23,23 +22,5 @@
     font-weight: 400;
     font-style: normal;
   }
-  /* Centering and spacing adjustments */
-  .w3-container {
-    position: relative;
-  }
+
   
-  iframe {
-    margin-left: 20px; /* Move the video 20px to the right */
-  }
-  
-  /* Slideshow styling */
-  .mySlides {display:none}
-  .w3-tag, .fa {cursor:pointer}
-  .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
-  
-  /* Ensure all images in the slideshow have the same height and width */
-  .slideshow-container img {
-    width: 100%;
-    height: 500px; /* Set a fixed height */
-    object-fit: cover; /* Ensure the images cover the container without stretching */
-  }
